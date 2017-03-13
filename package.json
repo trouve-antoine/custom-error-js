@@ -1,0 +1,27 @@
+{
+  "name": "custom-error-js",
+  "version": "1.0.0",
+  "description": "Proper way to create custom js error. As a lib",
+  "main": "index.js",
+  "dependencies": {
+    "chai": "^3.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trouve-antoine/custom-error-js.git"
+  },
+  "keywords": [
+    "js",
+    "Error"
+  ],
+  "author": "Antoine Trouvé (trouve.antoine@icloud.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trouve-antoine/custom-error-js/issues"
+  },
+  "homepage": "https://github.com/trouve-antoine/custom-error-js#readme"
+}

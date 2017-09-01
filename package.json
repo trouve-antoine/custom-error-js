@@ -1,6 +1,6 @@
 {
   "name": "custom-error-js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Proper way to create custom js error. As a lib",
   "main": "index.js",
   "dependencies": { },

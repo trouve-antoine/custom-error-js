@@ -1,6 +1,7 @@
 module.exports = function(nameOfCustomError) {
-  const CustomError = function(...args) {
-    let tmpError = Error.apply(this, args);
+  const CustomError = function() {
+    const args = Array.prototype.slice.call(arguments, 0);
+    const tmpError = Error.apply(this, args);
     tmpError.name = this.name = nameOfCustomError;
     this.message = tmpError.message;
     

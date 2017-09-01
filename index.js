@@ -6,7 +6,7 @@ module.exports = function(nameOfCustomError) {
     
     if(Object.defineProperty) {
       Object.defineProperty(this, 'stack', { 
-        get: () =>  tmpError.stack,
+        get: function() { return tmpError.stack },
         configurable: true
       })
     } else {
